@@ -10,7 +10,7 @@ public class SumTwoNumber {
             map.put(nums[i], i);
         }
         for (int j = 0; j < nums.length; j++) {
-            int com = targert - nums[j];
+            int com = target - nums[j];
             if (map.containsKey(com) && map.get(com) != j) {
                 return new int[]{j, map.get(com)};
             }
