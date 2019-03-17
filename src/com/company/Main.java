@@ -3,14 +3,19 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-	// two number test
+	        //两数之和
 //        int[] nums={2,5,5,11};
 //        int target=10;
 //        SumTwoNumber sumTwoNumber=new SumTwoNumber();
 //        int[] subscript=sumTwoNumber.twoSum(nums,target);
-        int x=-1230;
-        Revert revert=new Revert();
-        int result =revert.revert(x);
-        System.out.println(result);
+           //数字反转
+//        int x=-1230;
+//        Revert revert=new Revert();
+//        int result =revert.revert(x);
+//        System.out.println(result);
+        //回文数判断
+        int x=1231;
+        HuiWenShu huiWenShu=new HuiWenShu();
+        huiWenShu.huiWenShu(x);
     }
 }
