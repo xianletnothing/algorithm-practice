@@ -15,9 +15,14 @@ public class Main {
 //        System.out.println(result);
         //回文数判断
 //
-        String[] x = {"addsa", "addhfgf", "addgfgh"};
-        LongestCommonPrefix longestCommonPrefix = new LongestCommonPrefix();
-        String s=longestCommonPrefix.longestCommonPrefix(x);
-        System.out.println(s);
+//        String[] x = {"addsa", "addhfgf", "addgfgh"};
+//        LongestCommonPrefix longestCommonPrefix = new LongestCommonPrefix();
+//        String s=longestCommonPrefix.longestCommonPrefix(x);
+//        System.out.println(s);
+         //有效括号判断
+        String  str="[";
+        IsVaild isVaild=new IsVaild();
+        boolean bool=isVaild.isVaild(str);
+        System.out.println(bool);
     }
 }
