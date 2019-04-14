@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
         //两数之和
-//        int[] nums={2,5,5,11};
+       int[] nums={0,1,2,2,3,0,4,2};
 //        int target=10;
 //        SumTwoNumber sumTwoNumber=new SumTwoNumber();
 //        int[] subscript=sumTwoNumber.twoSum(nums,target);
@@ -20,9 +20,12 @@ public class Main {
 //        String s=longestCommonPrefix.longestCommonPrefix(x);
 //        System.out.println(s);
          //有效括号判断
-        String  str="[";
-        IsVaild isVaild=new IsVaild();
-        boolean bool=isVaild.isVaild(str);
-        System.out.println(bool);
+//        String  str="[";
+//        IsVaild isVaild=new IsVaild();
+//        boolean bool=isVaild.isVaild(str);
+//        System.out.println(bool);
+         RemoveElement removeElement=new RemoveElement();
+         int length=removeElement.removeElement(nums,2);
+         System.out.println(length);
     }
 }
